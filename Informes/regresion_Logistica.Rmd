@@ -1,0 +1,29 @@
+---
+title: "Regresion Logistica"
+author: "Roger Oporta"
+date: "3/25/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+# Librerias
+library(caret)
+library(dplyr)
+
+
+
+
+```
+
+## Proyecto en R utilizando la metologia de Regresion Logica
+
+## Lectura de Datos
+Se seleccionana los datos desde csv.
+```{r}
+datos<-read.csv("../Datos/alcohol-available-lastmonth-2019-csv.csv",stringsAsFactors = T)
+head(datos)
+```
+
