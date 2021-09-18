@@ -1,0 +1,1 @@
+# r-lineal-regression
